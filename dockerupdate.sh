@@ -1,5 +1,9 @@
 #!/bin/bash
 
+
+#added from loop brnachy
+
+
 docker pull ghcr.io/linuxserver/jackett > /tmp/dockerpull.tmp
 cat /tmp/dockerpull.tmp
 if [[ `grep Downloaded /tmp/dockerpull.tmp` ]] ; then
